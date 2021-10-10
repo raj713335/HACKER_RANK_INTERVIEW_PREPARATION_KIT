@@ -18,8 +18,6 @@ def isValid(s):
     
     dictx = {}
     
-    flag = True
-    prev = -1
     
     for i in range(0, len(s)):
         if s[i] not in dictx.keys():
