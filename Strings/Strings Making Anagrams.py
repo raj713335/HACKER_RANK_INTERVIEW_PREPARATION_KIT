@@ -20,9 +20,7 @@ def makeAnagram(a, b):
     
     dictx = {}
     
-    a=sorted(a)
-    b=sorted(b)
-    
+   
   
     x=0
     
