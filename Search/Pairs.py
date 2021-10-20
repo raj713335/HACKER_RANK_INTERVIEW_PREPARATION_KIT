@@ -27,8 +27,6 @@ def pairs(k, arr):
         
     for i in range(0, len(arr)):
         temp = k+arr[i]
-        if temp==arr[i]:
-            continue
                 
         if temp in dictx.keys():
             count += 1
